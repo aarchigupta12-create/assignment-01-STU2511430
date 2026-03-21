@@ -41,3 +41,6 @@ CREATE TABLE OrderDetails (
     FOREIGN KEY (order_id) REFERENCES Orders(order_id),
     FOREIGN KEY (product_id) REFERENCES Products(product_id)
 );
+
+
+INSERT INTO Customers VALUES ('C001', 'John Doe', 'john@email.com', 'Mumbai');
